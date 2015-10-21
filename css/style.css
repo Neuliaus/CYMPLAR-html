@@ -426,6 +426,15 @@ textarea.field {
 .btn-gray:hover {
 	background:#ebebeb;
 	}
+	.btn-light {
+	color:#2989EB;
+	background:#f2f2f2;
+	border-bottom-color:#bbb;
+	}
+
+.btn-light:hover {
+	background:#ebebeb;
+	}
 	
 .btn-flat {
 	border-radius:0;
