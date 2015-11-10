@@ -218,10 +218,14 @@
     text-overflow: ellipsis;
 	}
 
-.left-panel .title .glyphicon {
+.left-panel .title .left-icon {
 	position:absolute;
 	top:0;
 	left:10px;
+	}
+
+.left-panel .title .create-btn {
+	top:0;
 	}
 
 .user-area {
@@ -451,13 +455,31 @@
     border-bottom: 2px solid #fff;
 	}
 
+.page-head .padding-box {
+	position:relative;
+	}
+
+.page-head .padding-box .control {
+	position:absolute;
+	top:30px;
+	right:30px;
+	cursor:pointer;
+	}
+
+.page-head .padding-box .control .glyphicon {
+	color:#fff;
+	font-size:24px;
+	}
+
 .padding-box {
+	overflow:visible;
 	padding:15px 15px 0;
 	}
 
 .page-head .title {
 	color:#fff;
 	margin:15px 0 30px;
+	padding-right:80px;
 	}
 
 .lead-nav {
@@ -694,7 +716,23 @@
 	transform: rotate(-45deg);
 	}
 
+.feed .message {
+	max-width:70%;
+	float:right;
+	}
 
+.feed .message:nth-child(odd) {
+	float:left;
+	}
+
+hr {
+	margin:15px 0;
+	}
+
+.overflow.visible {
+	overflow:visible;
+	}
+	
 @media (max-width:1400px){
 	.side-panel{
 		-webkit-flex: 0 0 20%;
@@ -826,6 +864,18 @@
 		padding-bottom:30px;
 		}
 	
+	
+
+	.fixed-bar .title {
+		font-size:1em;
+		margin:5px 0 20px;
+		}
+		
+	.page-head .padding-box .control {
+		top:17px;
+		}
+ 
+	
 	}
 
 
@@ -836,10 +886,6 @@
 	}
 
 @media (max-width: 767px){
-	
-	.page-head {
-		border:none;
-		}
 
 	.lead-nav {
 		margin-bottom:1rem;
