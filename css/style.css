@@ -757,12 +757,12 @@
 		padding:0;
 		width:auto;
 		display:block;
-		margin:0 -15px;
+		margin:0;
 		}
 
 	.user-area {
 		width:auto;
-		margin:0 -15px 15px;
+		margin:0 0 15px;
 		position:relative;
 		}
 	
