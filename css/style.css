@@ -173,7 +173,7 @@
 	font-size:16px;
 	position:absolute;
 	top:7px;
-	right:30px;
+	right:-30px;
 	}
 	
 .create-btn:hover {
@@ -208,7 +208,7 @@
 .main-nav li a {
 	position:relative;
 	padding-left:30px;
-	padding-right:30px;
+	margin-right:50px;
 	}
 
 .text-overflow,
@@ -311,11 +311,14 @@
 	text-decoration:none;
 	}
 
-.main-nav .current a {
-    color:#fff;
+.main-nav .current {
     background: #304c69;
     position: relative;
 }
+
+.main-nav .current a {
+    color:#fff;
+	}
 
 .main-nav .create a {
 	color:#fff;
@@ -432,7 +435,7 @@
 }
 
 .field-with-icon .form-control {
-	padding-left:30px;
+	padding-left:30px !important;
 	}
 
 .field-with-icon .glyphicon {
