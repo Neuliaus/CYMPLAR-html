@@ -172,8 +172,16 @@
 	opacity:.2;
 	font-size:16px;
 	position:absolute;
-	top:7px;
-	right:-30px;
+	top:0;
+	right:5px;
+	height:30px;
+	width:30px;
+	line-height:30px;
+	text-align:center;
+	}
+
+.create-btn .glyphicon {
+	line-height:30px;
 	}
 	
 .create-btn:hover {
@@ -191,16 +199,20 @@
 	font-weight:400;
 	}
 
-.sub-title.notification:after {
+.left-panel .sub-title.notification {
+	padding-right:85px;
+	}
+
+.left-panel .sub-title.notification:after {
 	content:'';
 	display:inline-block;
-	height:6px;
-	width:6px;
+	height:5px;
+	width:5px;
 	border-radius:100%;
 	background:#ffc000;
-	position:relative;
-	top:-2px;
-	left:3px;
+	position:absolute;
+	top:13px;
+	right:70px;
 	}
 	
 .left-panel .sub-title,
@@ -208,11 +220,37 @@
 .main-nav li a {
 	position:relative;
 	padding-left:30px;
-	margin-right:50px;
+	padding-right:30px;
+	}
+
+.left-panel .sub-title {
+	padding-right:60px;
+	}
+
+.left-panel .sub-title .dropdown{
+	position:absolute;
+	top:0;
+	right:36px;
+	}
+
+.left-panel .sub-title .dropdown .glyphicon {
+	height:30px;
+	line-height:30px;
+	width:30px;
+	text-align:center;
+	opacity:.2;
+	}
+
+.left-panel .sub-title .dropdown .glyphicon:hover {
+	opacity:1;
+	}
+
+.left-panel .sub-title .dropdown .dropdown-menu {
+	min-width:inherit;
 	}
 
 .text-overflow,
-.text-overflow .item{
+.texts-overflow .item{
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -222,10 +260,6 @@
 	position:absolute;
 	top:0;
 	left:10px;
-	}
-
-.left-panel .title .create-btn {
-	top:0;
 	}
 
 .user-area {
