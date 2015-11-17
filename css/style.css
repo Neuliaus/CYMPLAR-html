@@ -769,7 +769,46 @@ hr {
 .overflow.visible {
 	overflow:visible;
 	}
+
+.form-horizontal .control-label {
+	text-align:left;
+	}
+
+.contact-list .title {
+	margin-left:22px;
+	}
+
+.contact-list .select-checkbox {
+	float:left;
+	display:inline-block;
+	margin:2px 0 0;
+	}
+
+.margin-b-n {
+	margin-bottom:0 !important; 
+	}	
+
+.padding-t-n {
+	padding-top:0 !important;
+	}
+
+.line-height-1 {
+	line-height:1;
+	}
 	
+.x-small {
+	font-size:10px;
+	}
+
+.checkbox .x-small {
+	padding-top:6px;
+	display:inline-block;
+	}
+
+.table > thead > tr > th {
+	vertical-align:top;
+	}
+
 @media (max-width:1400px){
 	.side-panel{
 		-webkit-flex: 0 0 20%;
