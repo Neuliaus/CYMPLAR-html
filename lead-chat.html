@@ -83,9 +83,9 @@
                         </ul>
                     </div>
                 </h5>
-                <div class="collapse" id="collapse1">
+                <div class="collapse in" id="collapse1">
                     <ul class="main-nav">
-                        <li><a href="">Ford-training</a></li>
+                        <li class="current"><a href="">Ford-training</a></li>
                         <li><a href="">Slim-Solutions</a></li>
                         <li><a href="">Neuli-Website</a></li>
                         <li><a href="">Costco-mufirtc</a></li>
@@ -151,12 +151,12 @@
                         <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
                     </a>
                 </h5>
-                <div class="collapse in" id="collapse7">
+                <div class="collapse" id="collapse7">
                     <ul class="main-nav">
                         <li><a href="">Tim <span class="badge white">12</span></a></li>
                         <li><a href="">Jo <span class="badge white">4</span></a></li>
 						<li><a href="">George <span class="badge white">4</span></a></li>
-						<li class="current"><a href="">Steven  <span class="badge white">2</span></a></li>
+						<li><a href="">Steven  <span class="badge white">2</span></a></li>
                    </ul>
                 </div><!--collapse-->
 			</div><!--aside-block-->
@@ -193,25 +193,45 @@
     	</div><!--left panel-->
     
         <div class="grid-block vertical">
-        
-        	 <div class="grid-content shrink fixed-bar overflow visible">
+            <div class="grid-content center-panel">
                 <div class="page-head">
                     <div class="padding-box">
-                        <h3 class="uppercase title">Steven</h3>
-                        <div class="dropdown control">
-                            <span class="glyphicon glyphicon-option-horizontal" aria-hidden="true" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></span>
-                            <ul class="dropdown-menu dropdown-menu-right">
-                                <li><a href="#">Edit</a></li>
-                                <li><a href="#">Delete</a></li>
-                            </ul>
-                        </div><!--dropdown -->
-                    </div><!--padding-box--> 
+                        <h3 class="uppercase title">Ford-training</h3>
+                        <ul class="lead-nav">
+                            <li>
+                                <a href="dashbord.html">
+                                    <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+                                    Main
+                                </a>
+                            </li>
+                            <li class="current">
+                                <a href="chat.html">
+                                    <span class="glyphicon glyphicon-comment" aria-hidden="true"></span>
+                                    Chat
+                                </a>
+                            </li>
+                        </ul><!--lead-nav-->                                        
+                    </div><!--padding-box-->  
+                    <div class="sub-bar">
+                    	<div class="tags-wrap margin-b-n">
+                            <div class="tag">
+                                Steven F.
+                                <span class="glyphicon glyphicon-remove delete" aria-hidden="true"></span>
+                            </div><!--tag-->
+                            <div class="tag">
+                                Jo
+                                <span class="glyphicon glyphicon-remove delete" aria-hidden="true"></span>
+                            </div><!--tag-->
+                            <div class="tag">
+                                Stan
+                                <span class="glyphicon glyphicon-remove delete" aria-hidden="true"></span>
+                            </div><!--tag-->
+                        </div>
+                    </div><!--filter-box-->
                 </div><!--page-head-->
-            </div><!--grid-content-->
-            
-            <div class="grid-content center-panel">
-                <div class="padding-box feed">
                 
+                <div class="padding-box feed">
+                                
                     <div class="card message">
                         <h5><strong>By John V.</strong></h5>
                         <p class="time"><small> Today at 8:45pm</small></p>
@@ -276,49 +296,69 @@
     
         <div class="side-panel right-panel">
             
-            <h4>You and <a href="">Steven</a> are chatting about:<br> <a href=""><strong>Ford-training</strong></a></h4>
-            <br>
+            <strong>Info</strong>
+            <input class="form-control input-sm margin-b-s" type="text" placeholder="input" value="Ford">
+            <input class="form-control input-sm margin-b-l" type="text" placeholder="input" value="Trainig">
             
-			    <div class="panel panel-default">
-                <div class="panel-heading">Team Members</div>
-                <ul class="list-group">
-				<li class="list-group-item">
-                        <span class="badge">Neuli</span>
-                        Oscar Omegna
-                    </li>
-                   
-                    <li class="list-group-item">
-                        <span class="badge">Vative</span>
-                        Darren Lee 
-                    </li>
-                </ul>
-            </div><!--panel-->
-			
-            <div class="panel panel-default">
-                <div class="panel-heading">Followers</div>
-                <ul class="list-group">
-                    
-                    <li class="list-group-item">
-                        <span class="badge">Neuli</span>
-                        Tim Barsony 
-                    </li>
-                </ul>
-            </div><!--panel-->
+            <strong>Contact name</strong>
             
-            <div class="panel panel-default">
-                <div class="panel-heading">Organisation feed</div>
-                <ul class="list-group">
-                    <li class="list-group-item">
-                        George signed contract with <a href="">Slim-Solutions <
-                    </li>
-                    <li class="list-group-item">
-                        Tim New opportunity with <a href="">Stark-industries</a> 
-                    </li>
-                    <li class="list-group-item">
-                        Oscar lost <a href="">Wayne Enterprises</a>.
-                    </li>
-                </ul>
-            </div><!--panel-->
+            <div class="tags-wrap margin-b-s">
+                <div class="tag">
+                    Steven F.
+                    <span class="glyphicon glyphicon-remove delete" aria-hidden="true"></span>
+                </div><!--tag-->
+                <div class="tag">
+                    Jo
+                    <span class="glyphicon glyphicon-remove delete" aria-hidden="true"></span>
+                </div><!--tag-->
+                <div class="tag">
+                    Stan
+                    <span class="glyphicon glyphicon-remove delete" aria-hidden="true"></span>
+                </div><!--tag-->
+            </div><!--tags-wrap-->
+            
+            <div class="field-with-icon margin-b-s">
+            	<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                <select class="form-control input-sm">
+                  <option>Steven F.</option>
+                  <option>Stan</option>
+                  <option>Jo</option>
+                </select>
+            </div><!--field-with-icon-->
+            
+            <div class="field-with-icon margin-b-s">
+            	<span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+            	<input class="form-control input-sm" type="text" placeholder="input" value="+123456789">
+            </div><!--field-with-icon-->
+            
+            <div class="field-with-icon margin-b-s">
+            	<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+            	<input class="form-control input-sm" type="text" placeholder="input" value="steven@mail.com">
+            </div><!--field-with-icon-->
+            
+            <div class="field-with-icon margin-b-l">
+            	<span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
+            	<input class="form-control input-sm" type="text" placeholder="input" value="@steven_f">
+            </div><!--field-with-icon-->
+            
+            <strong>Opportunity Name / Contract</strong>
+            <input class="form-control input-sm margin-b-l" type="text" placeholder="input" value="Training">
+            
+            <strong>Status</strong>
+            <select class="form-control input-sm margin-b-l">
+                <option>Opportunity</option>
+                <option>Lead-Hot</option>
+                <option>Lead-Warm</option>
+                <option>Lead-Cold</option>
+                <option>Contract Signed</option>
+                <option>Lost/Inactive</option>
+            </select>
+            
+            <strong>Percentage</strong>
+            <input type="range" class="range margin-b-s">
+            <input class="form-control input-sm margin-b-l" type="text" placeholder="input" value="25000">
+            
+            <a href="#" class="btn btn-primary btn-block">Save changes</a>
             
         </div><!--right panel-->
 	</div><!--grid-block-->  
