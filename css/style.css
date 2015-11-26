@@ -565,16 +565,20 @@
 	text-decoration:none;
 }
 
+.sub-bar {
+	padding:10px 15px;
+	background:#fff;
+	}
+
 .filter-box {
-	padding:10px 15px 8px 80px;
-    background: #fff;
+	padding-left:70px;
     position: relative;
     font-size: 12px;
 	}
 
 .filter-box .filter-title {
     position: absolute;
-    top:15px;
+    top:17px;
     left: 15px;
 }
 
@@ -592,7 +596,7 @@
 .filter li a {
     color: #999;
     display: block;
-    padding: 7px 10px;
+    padding: 6px 8px;
     border-radius: 3px;
 	line-height:1;
 }
