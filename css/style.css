@@ -849,6 +849,26 @@ hr {
 	max-width:550px;
 	}
 
+.list-line {
+	padding:0;
+	}
+
+.list-line li {
+	padding:10px 0;
+	display:block;
+	border-bottom:1px solid #ddd;
+	}
+
+.list-line li:first-child {
+	padding-top:0;
+	}
+
+.list-line li:last-child {
+	padding-bottom:0;
+	border-bottom:0;
+	}
+
+	
 @media (max-width:1400px){
 	.side-panel{
 		-webkit-flex: 0 0 20%;
