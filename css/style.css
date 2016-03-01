@@ -884,6 +884,10 @@ hr {
 	border-radius:0 0 4px 4px;
 	}
 
+.label-block {
+	display:block;
+	}
+
 	
 @media (max-width:1400px){
 	.side-panel{
