@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title></title>
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="grid-frame vertical">
+
+    <div class="top-panel">
+    
+        <div class="nav-btn left-panel-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div> 
+            
+    	<a href="#" class="logo">
+        	<img src="img/logo-white.png">
+        </a>        
+        
+		<span class="right-panel-btn">Info</span>
+            
+    </div><!--top-bar-->
+    
+    <div class="grid-block">
+        <div class="side-panel left-panel">
+            <div class="search-bar-wrap">
+                <form class="search-bar">
+                    <input type="text" class="field" placeholder="Search">
+                    <label for="submit-btn" class="label-submit-btn">
+                        <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </label>
+                    <input id="submit-btn" type="submit" value="">	
+                </form>
+            </div><!--search-bar-wrap-->
+        
+        	<div class="dropdown margin-b user-area">
+                <div class="user" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                	<div class="user-photo">
+                        <img src="img/user-photo.jpg">
+                    </div><!--user-photo"-->
+                    John Lastname
+                <span class="caret"></span>
+                </div>
+                <ul class="dropdown-menu full-width" aria-labelledby="dLabel">
+                    <li class="current check"><a href="">John Lastname</a></li>
+                    <li><a href="">Company Profile</a></li>
+                    <li class="divider"></li>
+                    <li><a href="">Settings</a></li>
+                    <li><a href="">Help</a></li>
+                    <li class="divider"></li>
+                    <li><a href="login.html">Logout</a></li>
+                </ul>
+            </div><!--dropdown-->
+            
+             <div class="aside-block">
+                
+                <h5 class="sub-title" data-toggle="collapse" data-target="#collapse1">
+                    <span class="glyphicon glyphicon-chevron-down left-icon" aria-hidden="true"></span>
+                    My profile
+                </h5>
+                <div class="collapse in" id="collapse1">
+                    <ul class="main-nav">
+                        <li class="current"><a href="">My name</a></li>
+                    </ul>
+                </div><!--collapse-->
+                
+                <h5 class="sub-title" data-toggle="collapse" data-target="#collapse2">
+                    <span class="glyphicon glyphicon-chevron-down left-icon" aria-hidden="true"></span>
+                    My Organisations
+                </h5>
+                <div class="collapse" id="collapse2">
+                    <ul class="main-nav">
+                        <li><a href="">Neuli</a></li>
+                        <li><a href="">Lego</a></li>
+                        <li><a href="">Stopintime</a></li>
+                        <li><a href="">Vative</a></li>
+                   </ul>
+                </div><!--collapse-->
+                
+                <h5 class="sub-title" data-toggle="collapse" data-target="#collapse3">
+                    <span class="glyphicon glyphicon-chevron-down left-icon" aria-hidden="true"></span>
+                    Invitation accepted 
+                </h5>
+                <div class="collapse" id="collapse3">
+                    <ul class="main-nav">
+                        <li><a href="invitation-accepted.html">Venuemob</a></li>
+                        <li><a href="">Logic SaaS</a></li>
+                   </ul>
+                </div><!--collapse-->
+                
+                <h5 class="sub-title" data-toggle="collapse" data-target="#collapse4">
+                    <span class="glyphicon glyphicon-chevron-down left-icon" aria-hidden="true"></span>
+                    Pending Invitations 
+                </h5>
+                <div class="collapse" id="collapse4">
+                    <ul class="main-nav">
+                        <li><a href="">Google</a></li>
+                        <li><a href="">Nasa</a></li>
+                   </ul>
+                </div><!--collapse-->
+            </div><!--aside-block-->
+        </div><!--left panel-->
+    
+        <div class="grid-block vertical">
+        
+            <div class="grid-content center-panel">
+            	<div class="page-head">
+                    <div class="padding-box">
+                        <h3 class="uppercase title">My Name</h3>
+                        <ul class="lead-nav">          
+                            <li class="current">
+                                <a href="">
+                                   Profile
+                                </a>
+                            </li>
+                        </ul><!--lead-nav-->                                        
+                    </div><!--padding-box-->  
+                </div><!--page-head-->
+            
+                <div class="padding-box">
+                	<div class="limit-width">
+                        <form class="form-horizontal">
+                        	<div class="form-group">
+                                <div class="col-md-3 control-label">
+                                	<p><img src="img/user-photo.jpg" height="100" width="100" class="img-circle"></p>
+                                </div>
+                                <div class="col-md-9">
+                                	<p><strong>Portrait</strong><br><small>min 100x100px</small></p>
+                                   	
+                                    <label for="user-photo" class="btn btn-default">Upload</label> 
+                                    <input id="user-photo" type="file" class="hidden">
+                                    
+                                    <input type="button" class="btn btn-default" value="Delete">
+                                </div>
+                            </div><!--form-group-->
+                            <div class="form-group">
+                                <label for="input1" class="col-md-3 control-label">Name</label>
+                                <div class="col-md-9">
+                                    <input type="text" class="form-control" id="input1">
+                                </div>
+                            </div><!--form-group-->
+                            <div class="form-group">
+                                <label for="input2" class="col-md-3 control-label">Position</label>
+                                <div class="col-md-9">
+                                    <input type="text" class="form-control" id="input2">
+                                </div>
+                            </div><!--form-group-->
+                            <div class="form-group">
+                                <label for="input3" class="col-md-3 control-label">Phone</label>
+                                <div class="col-md-9">
+                                    <input type="text" class="form-control" id="input3">
+                                </div>
+                            </div><!--form-group-->
+                            <div class="form-group">
+                                <label for="input4" class="col-md-3 control-label">Email</label>
+                                <div class="col-md-9">
+                                    <input type="text" class="form-control" id="input4">
+                                </div>
+                            </div><!--form-group-->
+                            <div class="form-group">
+                                <label for="input5" class="col-md-3 control-label">Mobile</label>
+                                <div class="col-md-9">
+                                    <input type="text" class="form-control" id="input5">
+                                </div>
+                            </div><!--form-group-->
+                            
+                            <hr class="separator">
+                            
+                            <div class="checkbox"> 
+                                <label> 
+                                    <input type="checkbox" checked>
+                                    Notifications
+                                </label> 
+                            </div><!--checkbox-->
+                            <div class="checkbox"> 
+                                <label> 
+                                    <input type="checkbox">
+                                    News
+                                </label> 
+                            </div><!--checkbox-->
+                            <div class="checkbox"> 
+                                <label> 
+                                    <input type="checkbox">
+                                    Discounts
+                                </label> 
+                            </div><!--checkbox-->
+                            
+                            <hr class="separator">
+                            
+                            <div class="form-group">
+                                <label for="input6" class="col-md-3 control-label">Facebook</label>
+                                <div class="col-md-9">
+                                    <input type="text" class="form-control" id="input6">
+                                </div>
+                            </div><!--form-group-->
+                            <div class="form-group">
+                                <label for="input7" class="col-md-3 control-label">Twitter</label>
+                                <div class="col-md-9">
+                                    <input type="text" class="form-control" id="input7">
+                                </div>
+                            </div><!--form-group-->
+                            <div class="form-group">
+                                <label for="input8" class="col-md-3 control-label">Linkedin</label>
+                                <div class="col-md-9">
+                                    <input type="text" class="form-control" id="input8">
+                                </div>
+                            </div><!--form-group-->
+                            
+                            <hr class="separator">
+                            	<p>
+                                	<strong>Lorem ipsum dolor sit amet.</strong>
+                                	<br>
+                                    <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi viverra semper purus sit amet blandit.</small>
+                                </p>
+                                
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">
+                                  Delete Account
+                                </button>
+                                
+                                <!-- Modal -->
+                                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                                  <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                        <h4 class="modal-title" id="myModalLabel">Confirmation</h4>
+                                      </div>
+                                      <div class="modal-body">
+                                        Are you sure you want to delete account?
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                                        <button type="button" class="btn btn-primary">Yes</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                                                
+                            <hr class="separator">
+                            
+                            <div class="text-right">
+                                <p><input type="button" value="Save changes" class="btn btn-primary"></p>
+                            </div>
+                            
+                        </form>
+                    </div><!--limit-width-->
+                </div><!--padding-box-->
+        	</div><!--grid-content-->
+        </div><!--center panel-->
+	</div><!--grid-block-->  
+</div><!--grid-frame-->
+
+
+<div class="blackout left"></div>
+<div class="blackout right"></div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<!--date time plugin requirements start-->
+<script src="js/moment.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap-datetimepicker.js"></script>
+<!--date time plugin requirements end-->
+
+<script src="js/tinynav.min.js"></script>
+<script>
+	//filter to select
+	$('.filter').tinyNav({
+		active: 'selected'
+	});
+	
+	//mobile left panel
+	$(".left-panel-btn, .blackout.left").click(function(){
+		$(".left-panel").toggleClass("visible");
+		$(".left-panel-btn").toggleClass("active");
+		$(".blackout.left").fadeToggle(300);
+	});
+	$(".right-panel-btn").click(function(){
+		$(".left-panel").removeClass("visible");	
+		$(".left-panel-btn").removeClass("active");
+		$(".blackout.left").fadeOut(300);		
+	});
+
+	//mobile right panel
+	$(".right-panel-btn, .blackout.right").click(function(){
+		$(".right-panel").toggleClass("visible");
+		$(".blackout.right").fadeToggle(300);
+	});
+	$(".left-panel-btn").click(function(){
+		$(".right-panel").removeClass("visible");	
+		$(".blackout.right").fadeOut(300);			
+	});
+	
+	//show form on mobile
+	$(".form-btn").click(function(){
+		$(".form-box ").toggleClass("visible");
+		$(".form-btn ").toggleClass("active");
+	});
+	
+	$('#datetimepicker1').datetimepicker();
+	$('#datetimepicker2').datetimepicker();
+	
+	//tooltip
+	$(function () {
+  		$('[data-toggle="tooltip"]').tooltip()
+	})
+	
+</script>
+</body>
+</html>
